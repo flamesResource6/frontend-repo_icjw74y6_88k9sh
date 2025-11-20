@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import Features from './components/Features'
 import Education from './components/Education'
 import Store from './components/Store'
+import QuoteForm from './components/QuoteForm'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Features />
       <Education />
       <Store />
+      <QuoteForm />
 
       <footer className="bg-slate-900 text-slate-300 py-12" id="contact">
         <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-3 gap-8">
